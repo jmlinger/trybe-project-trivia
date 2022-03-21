@@ -1,100 +1,90 @@
-<h1 align="center">Game de perguntas e respostas</h1>
+<h1 align="center">Trivia, D&D Theme.</h1>
 <br><br>
 
 # Descrição
 
-Após fazer login, o jogo já é iniciado e o usuário terá até 30 segundos para responder cada pergunta. Caso acerte, sua pontuação será acrescida
-levando-se em consideração a dificuldade da pergunta e o tempo de resposta. O jogo é encerrado ao final de 5 perguntas. O usuário poderá então decidir
-se pretende jogar novamente ou visualizar o ranking.
-Na tela inicial há também uma opção para que o usuário possa configurar as perguntas por tipo, categoria e nível de dificuldade.
+Jogo de perguntas e respostas. Após fazer login, o jogo já é iniciado e o usuário terá até 30 segundos para responder cada pergunta.
+Caso acerte, sua pontuação será acrescida levando-se em consideração a dificuldade da pergunta e o tempo de resposta. O jogo é encerrado
+ao final de 5 perguntas. O usuário poderá então decidir se pretende jogar novamente ou visualizar o ranking. Na tela inicial há também
+uma opção para que o usuário possa configurar as perguntas por tipo, categoria e nível de dificuldade.
 <br><br>
 
 # Stacks de Desenvolvimento
 
 <div>
   <a href="https://pt-br.reactjs.org/docs/getting-started.html">
-    <img src="https://img.shields.io/badge/React.js-339933?style=for-the-badge&logo=react&color=darkblue&logoColor=white" />
+    <img src="https://img.shields.io/badge/React.js-339933?style=for-the-badge&logo=react&color=black" />
   </a>
-  <br>
   <a href="https://redux.js.org/usage/index">
-    <img src="https://img.shields.io/badge/Redux-339933?style=for-the-badge&logo=redux&color=darkblue&logoColor=white" />
+    <img src="https://img.shields.io/badge/Redux-339933?style=for-the-badge&logo=redux&color=black" />
   </a>
-  <br>
+  <a href="https://sass-lang.com/documentation">
+    <img src="https://img.shields.io/badge/sass-339933?style=for-the-badge&logo=sass&color=black" />
+  </a>
 </div>
-<br><br>
+<br>
 
 # Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-Como o projeto possui dependências na raíz, no back e no front é necessário rodar o **npm install**, conforme a seguir:
-
-**Em construção**
-
-<!--
+Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
 
 ## Rodando o projeto localmente
 
 ```bash
 # Clone este repositório com a chave SSH ou HTTP a depender de como seu git está configurado.
-$ git clone <git@github.com:Henriquealarcon/delivery-app.git>
+$ git clone git@github.com:jmlinger/trybe-project-trivia.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd delivery-app
+$ cd trybe-project-trivia
 
-# Vá para a front-end
-$ cd front-end
-
-# Instale as dependências do back-end
+# Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Execute a aplicação
 $ npm start
 
 ```
 
 ## Funcionalidades da aplicação
 
-## V 1.0
+## V 1.1
 
-A Aplicação funciona através de rotas e cada rota só pode ser acessada caso exista a autenticação do usuário.
-<br>
-As rotas são condiciadas também de acordo com a função do usuário no aplicação.
-
-### Administrador
-- [ ] Cadastro de produtos.
-- [x] Atribuir categoria ao usuário.(http://localhost:3000/admin/manage)
-- [ ] Deleção de usuário.
-- [x] Atribuir categoria ao usuário.
-### Cliente
-- [x] Cadastro de usuário.(http://localhost:3000/register)
-- [x] Login.(http://localhost:3000/login)
-- [x] Acesso aos produtos do app ao fazer o login / registar-se. (http://localhost:3000/customer/products)
-- [x] Adicionar ou retira produtos do carrinho de compras. (http://localhost:3000/customer/checkout)
-- [x] Acesso ao status do pedido em tempo real.
-- [x] Acesso aos detalhes do seu pedido, e adiciona o endereço de entrega.(http://localhost:3000/customer/orders)
-- [x] Finaliza a compra e emite uma mensagem para o vendedor.
-### Vendedor
-- [x] Cadastro como usuário default.(http://localhost:3000/register)
-- [x] Login.(http://localhost:3000/customer/login)
-- [x] Acesso aos pedidos no app ao fazer o login / registar-se.(http://localhost:3000/seller/orders)
-- [x] Acesso ao detalhamento do pedido por número e status.(http://localhost:3000/seller/orders)(/número do id do pedido)
-- [x] Acesso aos detalhes do seu pedido, e adiciona o endereço de entrega.
-- [x] Recebe o pedido em tempo real e da início a entrega.
-
+### Tela de login
+- [x] Exibe campos para inserir nome e email do jogador.
+- [x] Exibe botão que inicia o jogo. Este é somente habilitado quando os campos forem preechindos corretamente.
+- [x] Botão que leva à tela de configurações.
+### Tela de jogo
+- [x] Exibe um header que contém imagem de perfil do email do jogador, seu nome e seu placar atual.
+- [x] Exibe uma pergunta de cada vez. Cada pergunta contém apenas uma alternativa correta.
+- [x] Exibe um timer de 30 segundos por pergunta. Quando o tempo se esgota é exibida a alternativa correta e a resposta é contabilizada como errada.
+- [x] Quando uma alternativa é escolhida ou quando o tempo é esgotado, é alterado o estilo das alternativas de forma a diferencar a correta das incorretas. 
+- [x] Acresce o placar do jogador caso a alternativa correta tenha sido selecionada. A pontuação depende do tempo de resposta e do nível de
+dificuldade da pergunta.
+- [x] Exibe botão para ir pra próxima pergunta quando uma alternativa é escolhida ou quando o tempo é esgotado.
+- [x] Exibe um total de 5 perguntas. Ao final da última pergunta, quando o usuário clica no botão para ir pra próxima pergunta, é redirecionado à tela de feedback.
+### Tela de feedback
+- [x] Exibe um header que contém imagem de perfil do email do jogador, seu nome e seu placar atual.
+- [x] Exibe mensagem personalizada de acordo com a quantidade de acertos.
+- [x] Exibe a quantidade de acertos e pontuação final do jogador.
+- [x] Contém botão para ir à tela de ranking.
+- [x] Contém botão para jogar novamente, que redireciona o usuário para a tela de login.
+### Tela de ranking
+- [x] Exibe um ranqueamento de jogadores em ordem descrescente de pontuação.
+- [x] Contém botão para jogar novamente, que redireciona o usuário para a tela de login.
+### Tela de configurações
+- [x] Permite a pessoa usuária modificar a categoria das perguntas que serão exibidas em jogo, seu nível de dificuldade e seu tipo.
+- [x] Exibe botão que salva as modificações e redireciona para a tela de login.
 <br><br>
 
 ## Desenvolvido em conjunto com:
 
-Igor Fernandes - https://github.com/srsifer
+Eric Faria - https://github.com/eric-faria
 <br>
-Gustavo Mourão - https://github.com/Gustavo-Mourao
+Kevin Oliveira - https://github.com/Kevin-Ol
 <br>
-Henrique - https://github.com/jmlinger
-<br>
-José Luis Demeneghi - https://github.com/Joseluisdemeneghi
-
+Rodrigo Freitas - https://github.com/R-R-Freitas
 
 ## Status
 
