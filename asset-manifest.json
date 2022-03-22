@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7a577721.chunk.css",
+    "main.js": "./static/js/main.a302232c.chunk.js",
+    "main.js.map": "./static/js/main.a302232c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3103008a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3103008a.js.map",
+    "static/js/2.5880a0c6.chunk.js": "./static/js/2.5880a0c6.chunk.js",
+    "static/js/2.5880a0c6.chunk.js.map": "./static/js/2.5880a0c6.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.a056240b19cad72d329f2ea7cc08c68b.js": "./precache-manifest.a056240b19cad72d329f2ea7cc08c68b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.7a577721.chunk.css.map": "./static/css/main.7a577721.chunk.css.map",
+    "static/js/2.5880a0c6.chunk.js.LICENSE": "./static/js/2.5880a0c6.chunk.js.LICENSE",
+    "static/media/arrow.png": "./static/media/arrow.12ac286a.png",
+    "static/media/Login.css": "./static/media/castle.00814170.jpg",
+    "static/media/Game.css": "./static/media/questions.96f64e3d.png",
+    "static/media/Config.css": "./static/media/questionMark.091b40f3.png",
+    "static/media/Ranking.css": "./static/media/ranking.a1c4da76.png",
+    "static/media/trivia.png": "./static/media/trivia.8ee717d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3103008a.js",
+    "static/js/2.5880a0c6.chunk.js",
+    "static/css/main.7a577721.chunk.css",
+    "static/js/main.a302232c.chunk.js"
+  ]
+}
