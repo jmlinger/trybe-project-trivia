@@ -1,4 +1,4 @@
-<h1 align="center">Trivia, D&D Theme.</h1>
+<h1 align="center">Trivia, D&D Visual Theme.</h1>
 <br><br>
 
 # Descrição
@@ -91,4 +91,3 @@ Rodrigo Freitas - https://github.com/R-R-Freitas
 <h3> 
 	🚧  Projeto finalizado 🚧
 </h3>
-
