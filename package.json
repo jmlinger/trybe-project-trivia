@@ -2,13 +2,11 @@
   "name": "trivia-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jmlinger.github.io/trybe-project-trivia",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^5.1.0",
     "crypto-js": "^4.1.1",
-    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -21,8 +19,6 @@
     "utf8": "^3.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
