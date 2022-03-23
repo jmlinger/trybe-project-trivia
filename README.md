@@ -2,6 +2,10 @@
 
 <br>
 
+![](./src/images/trivia.gif)
+
+<br>
+
 # Descrição
 
 Jogo de perguntas e respostas na temática visual do D&D.
