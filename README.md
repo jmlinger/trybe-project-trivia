@@ -1,4 +1,5 @@
 <h1 align="center">Trivia, D&D Visual Theme.</h1>
+
 <br>
 
 # Descrição
@@ -9,8 +10,10 @@ Após fazer login, o jogo já é iniciado e o usuário terá até 30 segundos pa
 ao final de 5 perguntas. O usuário poderá então decidir se pretende jogar novamente ou visualizar o ranking. Na tela inicial há também
 uma opção para que o usuário possa configurar as perguntas por tipo, categoria e nível de dificuldade.
 <br><br>
-Projeto desenvolvido como forma de critério avaliativo na escola de tecnologia Trybe.
-<br><br>
+Projeto desenvolvido como forma de critério avaliativo da escola de tecnologia Trybe.
+
+<br>
+
 # Stacks de Desenvolvimento
 
 <div>
@@ -33,12 +36,14 @@ Projeto desenvolvido como forma de critério avaliativo na escola de tecnologia 
     <img src="https://img.shields.io/badge/sass-339933?style=for-the-badge&logo=sass&color=black" />
   </a>
 </div>
+
 <br>
 
 # A aplicação em nuvem
 
 Acesse a aplicação rodando em nuvem por <a href="https://jmlinger.github.io/trybe-project-trivia/"> aqui <a/>.
-<br><br>
+
+<br>
 
 # Rodando a aplicação localmente
 
@@ -92,7 +97,8 @@ dificuldade da pergunta.
 ### Tela de configurações
 - [x] Permite a pessoa usuária modificar a categoria das perguntas que serão exibidas em jogo, seu nível de dificuldade e seu tipo.
 - [x] Exibe botão que salva as modificações e redireciona para a tela de login.
-<br><br>
+
+<br>
 
 ## Desenvolvido em conjunto com:
 
@@ -101,6 +107,8 @@ Eric Faria - https://github.com/eric-faria
 Kevin Oliveira - https://github.com/Kevin-Ol
 <br>
 Rodrigo Freitas - https://github.com/R-R-Freitas
+
+<br>
 
 ## Status
 
