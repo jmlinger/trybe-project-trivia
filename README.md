@@ -1,5 +1,5 @@
 <h1 align="center">Trivia, D&D Visual Theme.</h1>
-<br><br>
+<br>
 
 # Descrição
 
@@ -12,6 +12,15 @@ uma opção para que o usuário possa configurar as perguntas por tipo, categori
 # Stacks de Desenvolvimento
 
 <div>
+  <a href="https://javascript.info/">
+    <img src="https://img.shields.io/badge/javascript-339933?style=for-the-badge&logo=javascript&color=black" />
+  </a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/html5-339933?style=for-the-badge&logo=html5&color=black" />
+  </a>
+  <a href="https://www.w3schools.com/cssref/">
+    <img src="https://img.shields.io/badge/css-339933?style=for-the-badge&logo=css3&color=black" />
+  </a>
   <a href="https://pt-br.reactjs.org/docs/getting-started.html">
     <img src="https://img.shields.io/badge/React.js-339933?style=for-the-badge&logo=react&color=black" />
   </a>
@@ -24,13 +33,18 @@ uma opção para que o usuário possa configurar as perguntas por tipo, categori
 </div>
 <br>
 
-# Pré-requisitos
+# A Aplicação em núvem
+
+Acesse a aplicação rodando em núvem por <a href="https://jmlinger.github.io/trybe-project-trivia/"> aqui <a/>.
+<br><br>
+
+# Rodando a aplicação localmente
+
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com). 
-Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
-
-## Rodando o projeto localmente
+[Git](https://git-scm.com). Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
+A seguir encontran-se os passos para rodar a aplicação localmente.
 
 ```bash
 # Clone este repositório com a chave SSH ou HTTP a depender de como seu git está configurado.
@@ -65,7 +79,7 @@ dificuldade da pergunta.
 - [x] Exibe botão para ir pra próxima pergunta quando uma alternativa é escolhida ou quando o tempo é esgotado.
 - [x] Exibe um total de 5 perguntas. Ao final da última pergunta, quando o usuário clica no botão para ir pra próxima pergunta, é redirecionado à tela de feedback.
 ### Tela de feedback
-- [x] Exibe um header que contém imagem de perfil do email do jogador, seu nome e seu placar atual.
+- [x] Exibe um header que contém imagem de perfil do jogador no Gravatar, seu nome e seu placar atual.
 - [x] Exibe mensagem personalizada de acordo com a quantidade de acertos.
 - [x] Exibe a quantidade de acertos e pontuação final do jogador.
 - [x] Contém botão para ir à tela de ranking.
