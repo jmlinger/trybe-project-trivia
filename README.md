@@ -33,7 +33,7 @@ uma opção para que o usuário possa configurar as perguntas por tipo, categori
 </div>
 <br>
 
-# A Aplicação em núvem
+# A aplicação em núvem
 
 Acesse a aplicação rodando em núvem por <a href="https://jmlinger.github.io/trybe-project-trivia/"> aqui <a/>.
 <br><br>
