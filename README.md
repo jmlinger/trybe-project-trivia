@@ -3,8 +3,7 @@
 
 # Descrição
 
-Jogo de perguntas e respostas. Após fazer login, o jogo já é iniciado e o usuário terá até 30 segundos para responder cada pergunta.
-Caso acerte, sua pontuação será acrescida levando-se em consideração a dificuldade da pergunta e o tempo de resposta. O jogo é encerrado
+Jogo de perguntas e respostas na temática visual do D&D. Após fazer login, o jogo já é iniciado e o usuário terá até 30 segundos para responder cada pergunta. Caso acerte, sua pontuação será acrescida levando-se em consideração a dificuldade da pergunta e o tempo de resposta. O jogo é encerrado
 ao final de 5 perguntas. O usuário poderá então decidir se pretende jogar novamente ou visualizar o ranking. Na tela inicial há também
 uma opção para que o usuário possa configurar as perguntas por tipo, categoria e nível de dificuldade.
 <br><br>
